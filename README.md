@@ -12,6 +12,11 @@ Se ha seguido una metodología inspirada en el estándar **CRISP-DM**:
 * **Ingeniería de Características:** * Uso de **NLP (VADER)** para cuantificar el sentimiento de las reseñas.
     * Creación de la variable *bug_mention_ratio* para detectar fallos técnicos reportados por usuarios.
     * Integración de métricas de redes sociales (aparición en el Top 200 de Twitch®).
+ 
+## 📁 Acceso a los Datos
+Debido al tamaño de los datasets originales (+32M de reseñas), los datos no se encuentran alojados directamente en este repositorio. 
+* Los metadatos y reseñas pueden obtenerse en: [[Enlace a Mendeley](https://data.mendeley.com/datasets/jxy85cr3th/2)]
+* El conjunto de datos de Twitch se obtuvo de: [[Enlace a Kaggle](https://www.kaggle.com/datasets/rankirsh/evolution-of-top-games-on-twitch?select=Twitch_game_data.csv)]
 
 ## 🚀 Modelado y Resultados
 Se evaluaron algoritmos de ensamblaje, siendo **XGBoost** el que ofreció el mejor rendimiento global.
